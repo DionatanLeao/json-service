@@ -1,9 +1,11 @@
 package com.kafkajsonservice.jsonservice.model;
 
 import lombok.Getter;
+import lombok.ToString;
 
 import java.io.Serializable;
 
+@ToString
 @Getter
 public class Payment implements Serializable {
     private Long id;
